@@ -12,7 +12,7 @@ body::before{
     }
 .hero{
     position: relative;
-    background-image: url(/image/c.jpg);
+    background-image: url(https://i.postimg.cc/PJDXGRtT/c.jpg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -20,7 +20,7 @@ body::before{
 }
 .bg-img{
     position: relative;
-    background-image: url(/image/pexels-anthony-shkraba-7144184.jpg);
+    background-image: url(https://i.postimg.cc/bYZdH6f6/pexels-anthony-shkraba-7144184.jpg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
