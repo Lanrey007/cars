@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./style/style.css">
+    <title>CarMart</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-info text-white  navbar-light py-3 fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">CarMart</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" >
+               <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active border ">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">About</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+
+    <!--hero-->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="fw-bolder display-5">Welcome to CarMart</h2>
+                    <p class="lead fw-bold">Let us help you get your next car!</p>
+                    <a class="btn btn-info btn-lg" href="gallery.html" role="button">View Gallery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="p-0  text-dark">
+        <div class="container p-0">
+            <div class="row align-items-center justify-content-center p-0"> 
+                <div class="col-md  px-5">
+                    <h2 class="fw-bolder display-5 pt-2 text-info">About Us</h2>
+                    <p class="lead fw-bold">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis consequuntur nesciunt eswe.
+                    </p>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nobis quis inventore perferendis architecto reprehenderit necessitatibus, quasi molestias maxime odio excepturi vitae eius eaque. Similique sit omnis voluptate expedita vel!
+                    </p>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <p><i class="bi bi-check-circle-fill"></i> Lorem, ipsum dolor. </p>
+                        </li>
+                        <li class="nav-item">
+                            <p><i class="bi bi-check-circle-fill"></i> Lorem, ipsum dolor. </p>
+                        </li>
+                        <li class="nav-item">
+                            <p><i class="bi bi-check-circle-fill"></i> Lorem, ipsum dolor. </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md bg-img" >
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--featured-->
+    <section class="feature bg-info bg-opacity-10">
+        <div class="container-fluid">
+            <div class="d-sm-flex justify-content-between ">
+                <div class="p-3">
+                    <h2 class="text-info fw-bolder display-5">Featured Listings</h2>
+                </div>
+                <div class="p-3">
+                    <a class="btn btn-outline-danger " href="gallery.html" role="button">AUDI</a>
+                    <a class="btn btn-outline-danger " href="gallery.html" role="button">BMW</a>
+                    <a class="btn btn-outline-danger " href="gallery.html" role="button">FERARRI</a>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-5">
+            <div class="row car-bl" id="cgallery">
+                <div class="car col-md-6 col-lg-3   p-0 text-center" >
+                    <img src="./image/car-g034a192c5_640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                         <h3 class="card-title">Card title</h3>
+                         <h3 class="card-text text-info">Some .</h3>
+                         <p class="card-text lead"></p>
+                         <a href="#" class="btn btn-info">Go somewhere</a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+   
+    <!--contact-->
+   <section class="p-5 " >
+    <h1 class="text-center text-info fw-bolder display-5">Talk To Us </h1>
+       <div class="container border p-4 text-dark">
+           <form action="">
+            <div class="row gy-3">
+                <div class="col-sm">
+                  <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                </div>
+                <div class="col-sm">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                  </div>
+              </div>
+              <div class="form-fl py-4">
+                <textarea class="form-control" cols="30" rows="10"   placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              </div>
+              <button class="btn btn-info  btn-lg">
+                <a class="text-light text-decoration-none" href="#">Send Message</a> 
+              </button>
+           </form>
+       </div>
+   </section>
+   <section id="testimonials" class="p-5 bg-info bg-opacity-10">
+    <div class="container">
+        <h2 class="text-center text-info">
+            Our Testimonials
+        </h2>
+        <p class="lead text-center text-info mb-5">
+            What people say about us
+        </p>
+        <div class="row ">
+            <div class="col-md-6 pt-3 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="rounded-circle mb-3" src="./image/11.jpg" alt="">
+                        <h3 class="card-title mb-3">Ade ola</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla suscipit dolore corporis inventore in amet, ut molestiae eaque magnam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pt-3 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="rounded-circle mb-3" src="./image/11w.jpg" alt="">
+                        <h3 class="card-title mb-3">bisi ola</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla suscipit dolore corporis inventore in amet, ut molestiae eaque magnam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pt-3 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="rounded-circle mb-3" src="./image/13.jpg" alt="">
+                        <h3 class="card-title mb-3">Ade tunde</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla suscipit dolore corporis inventore in amet, ut molestiae eaque magnam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pt-3 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="rounded-circle mb-3" src="./image/13w.jpg" alt="">
+                        <h3 class="card-title mb-3">Ade ola</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla suscipit dolore corporis inventore in amet, ut molestiae eaque magnam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--location-->
+    <section class="bg-info p-3 text-light">
+        <div class="container my-5">
+            <div class="d-block d-sm-flex">
+                <div class="col ">
+                    <h3 class="">
+                        Lagos, Nigeria.
+                    </h3>
+                    <p class="lead ">
+                        10,lorem street, Lorem ipsum dolor sit amet.
+                    </p>
+                    <h6 class="my-5">Email: support@carmart.com</h6>
+                </div>
+                <div class="col ">
+                    <div class="mb-5">
+                        <h5 class="text-start">Call directly:</h5>
+                        <h2 class="lead">
+                        +234 827-226-3126
+                        </h2>
+                   </div>
+                    <div class="mb-5">
+                        <h5>Branch Offices</h5>
+                    <p class="lead">
+                        lorem,| ipsum,| lorem,| ipsum,| lorem,| ipsum,| lorem.
+                    </p>
+                    </div>
+                    <div class="mb-5">
+                        <h5>Work Hours:</h5>
+                    <p class="lead">
+                        Mon - Sat: 8.00 - 17.00, Sunday closed
+                    </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+<!--footer-->
+<footer class="p-5 bg-info text-white text-center position-relative">
+    <p class="lead">
+        Copyright &copy; 2021 CarMart
+    </p>
+    <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+</footer>
+<script src="./js/index.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

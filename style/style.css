@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    display: block;
+    content: "";
+    height: 70px
+}
+.car{
+        width: 30%;
+    }
+.hero{
+    position: relative;
+    background-image: url(/image/c.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 220px;
+}
+.bg-img{
+    position: relative;
+    background-image: url(/image/pexels-anthony-shkraba-7144184.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 220px;
+}
+@media (max-width:992px), (max-width:768px) {
+    .car{
+        width: 44% !important;
+    }
+}
+@media (max-width:576px) {
+    .car{
+        width: 90% !important;
+     }
+}
+@media (max-width:576px) {
+    .car-bl{
+        display: block;
+     }
+}
