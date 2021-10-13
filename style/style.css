@@ -32,6 +32,9 @@ body::before{
     }
 }
 @media (max-width:576px) {
+    body{
+        overflow-x: hidden;
+    }
     .car{
         width: 90% !important;
      }
